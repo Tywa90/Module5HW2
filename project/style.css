@@ -1,3 +1,57 @@
-p {
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.task1 p {
     color: green;
+}
+
+.task1,
+.task2 {
+    margin: 20px;
+    border-bottom: 1px dotted darkgray;
+}
+
+[href^=https] {
+    color: red;
+}
+
+.list>li:nth-last-of-type(1) {
+    background-color: green;
+}
+
+ul+p {
+    font-size: 26px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2ecc71;
+}
+
+footer {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #16a085;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.list {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
